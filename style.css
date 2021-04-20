@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+}
+
+#clock {
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    border: solid 2px black;
+    background: url('/clock face.png') no-repeat center;
+    background-size: 100%;
+    position: relative;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 24%;
+    width: 2%;
+    top: 25.5%;
+    left: 48.8%;
+    opacity: 0.8;
+}
+
+#minute {
+    height: 27%;
+    width: 1.5%;
+    top: 22.5%;
+    left: 49.1%;
+    opacity: 0.7;
+}
+
+#second {
+    height: 30%;
+    width: 1%;
+    top: 20%;
+    left: 49.35%;
+    opacity: 0.6;
+}
+
+.callendar {
+    height: 6.5%;
+    width: 32%;
+    font-size: 1.5vw;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
